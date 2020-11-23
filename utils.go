@@ -12,7 +12,7 @@ import (
 	"github.com/docker/docker/pkg/archive"
 	"github.com/docker/docker/pkg/ioutils"
 	"github.com/pkg/errors"
-	"github.com/rai-project/config"
+	"github.com/c3sr/config"
 )
 
 const (

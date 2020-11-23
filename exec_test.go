@@ -8,7 +8,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/rai-project/config"
+	"github.com/c3sr/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

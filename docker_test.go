@@ -3,7 +3,7 @@ package docker
 import (
 	"testing"
 
-	"github.com/rai-project/config"
+	"github.com/c3sr/config"
 	"go.uber.org/goleak"
 )
 
@@ -15,7 +15,7 @@ func TestMain(m *testing.M) {
 
 	goleak.VerifyTestMain(m,
 		goleak.IgnoreTopFunction("github.com/patrickmn/go-cache.(*janitor).Run"),
-		goleak.IgnoreTopFunction("github.com/rai-project/docker/vendor/github.com/patrickmn/go-cache.(*janitor).Run"),
+		goleak.IgnoreTopFunction("github.com/c3sr/docker/vendor/github.com/patrickmn/go-cache.(*janitor).Run"),
 	)
 
 }

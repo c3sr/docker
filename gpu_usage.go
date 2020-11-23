@@ -5,7 +5,7 @@ import (
 
 	"github.com/flyaways/golang-lru"
 	"github.com/pkg/errors"
-	"github.com/rai-project/nvidia-smi"
+	"github.com/c3sr/nvidia-smi"
 )
 
 type GPUUsageState struct {

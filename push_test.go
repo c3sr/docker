@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rai-project/model"
+	"github.com/c3sr/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

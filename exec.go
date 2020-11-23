@@ -12,7 +12,7 @@ import (
 	"github.com/docker/docker/api/types"
 	shellwords "github.com/junegunn/go-shellwords"
 	"github.com/pkg/errors"
-	"github.com/rai-project/utils/promise"
+	"github.com/c3sr/utils/promise"
 )
 
 type Execution struct {

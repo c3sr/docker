@@ -8,9 +8,9 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/pkg/errors"
-	"github.com/rai-project/config"
-	"github.com/rai-project/model"
-	"github.com/rai-project/utils"
+	"github.com/c3sr/config"
+	"github.com/c3sr/model"
+	"github.com/c3sr/utils"
 )
 
 func (c *Client) ImagePush(name0 string, pushOpts model.Push) error {

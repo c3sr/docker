@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rai-project/config"
-	nvidiasmi "github.com/rai-project/nvidia-smi"
+	"github.com/c3sr/config"
+	nvidiasmi "github.com/c3sr/nvidia-smi"
 	"github.com/stretchr/testify/assert"
 )
 

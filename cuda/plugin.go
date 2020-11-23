@@ -10,7 +10,7 @@ import (
 	"github.com/k0kubun/pp"
 	"github.com/opencontainers/runc/libcontainer/user"
 	"github.com/pkg/errors"
-	nvidiasmi "github.com/rai-project/nvidia-smi"
+	nvidiasmi "github.com/c3sr/nvidia-smi"
 )
 
 type CUDADriver struct{}

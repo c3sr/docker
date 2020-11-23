@@ -15,9 +15,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/rai-project/config"
-	"github.com/rai-project/ldcache"
-	nvidiasmi "github.com/rai-project/nvidia-smi"
+	"github.com/c3sr/config"
+	"github.com/c3sr/ldcache"
+	nvidiasmi "github.com/c3sr/nvidia-smi"
 )
 
 const (

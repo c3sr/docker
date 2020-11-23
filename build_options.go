@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/rai-project/uuid"
+	"github.com/c3sr/uuid"
 )
 
 type BuildOptions struct {

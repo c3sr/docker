@@ -14,10 +14,10 @@ import (
 	"github.com/docker/docker/api/types/network"
 	"github.com/imdario/mergo"
 	"github.com/pkg/errors"
-	"github.com/rai-project/config"
-	"github.com/rai-project/docker/cuda"
-	nvidiasmi "github.com/rai-project/nvidia-smi"
-	"github.com/rai-project/uuid"
+	"github.com/c3sr/config"
+	"github.com/c3sr/docker/cuda"
+	nvidiasmi "github.com/c3sr/nvidia-smi"
+	"github.com/c3sr/uuid"
 	"github.com/spf13/cast"
 )
 
