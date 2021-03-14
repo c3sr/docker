@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/Unknwon/com"
+	"github.com/unknwon/com"
 	"github.com/docker/go-connections/tlsconfig"
 )
 
