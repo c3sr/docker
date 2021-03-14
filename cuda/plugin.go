@@ -7,7 +7,7 @@ import (
 	"regexp"
 
 	"github.com/docker/go-plugins-helpers/volume"
-	"github.com/k0kubun/pp"
+	"github.com/k0kubun/pp/v3"
 	"github.com/opencontainers/runc/libcontainer/user"
 	"github.com/pkg/errors"
 	nvidiasmi "github.com/c3sr/nvidia-smi"

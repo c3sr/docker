@@ -28,6 +28,7 @@ func NewContainer(client *Client, paramOpts ...ContainerOption) (*Container, err
 		options.containerConfig,
 		options.hostConfig,
 		options.networkConfig,
+		nil,
 		options.name,
 	)
 	if err != nil {
